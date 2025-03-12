@@ -23,12 +23,6 @@ def save_chat_history(history):
         json.dump(history, file, indent=4)
 
 # # Initialize memory with past chat history
-# past_chats = load_chat_history()
-# memory = ConversationBufferMemory() #To remember context across multiple user inputs.
-# for chat in past_chats:
-#     memory.chat_memory.add_user_message(chat["user"]) #Stores the user’s message
-#     memory.chat_memory.add_ai_message(chat["bot"])    #Stores the chatbot’s message
-# Initialize memory with past chat history
 past_chats = load_chat_history()
 memory = ConversationBufferMemory()  # To remember context across multiple user inputs.
 
