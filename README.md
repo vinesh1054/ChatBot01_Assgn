@@ -4,9 +4,9 @@
 
 ---
 
-## ** Assignment Overview**  
+## ** Project Overview**  
 
-This assignment demonstrates the deployment of the **LLaMA 3.1-8B** model on a local machine without API integration. The chatbot is designed to engage in real-time conversations, retain context, and provide customized responses based on predefined behaviors.  
+This project demonstrates the deployment of the **LLaMA 3.1-8B** model on a local machine without API integration. The chatbot is designed to engage in real-time conversations, retain context, and provide customized responses based on predefined behaviors.  
 
 ---
 
